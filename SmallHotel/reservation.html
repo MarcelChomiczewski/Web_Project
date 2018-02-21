@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head lang-"pl">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="style/bulma.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="script.js" >
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+  </head>
+  <body>
+          <script src="script.js"> </script>
+      <header id="main">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+
+              <li class="navbar main_nav" >
+                <ul><a href="index.html">Start</a></ul>
+                <ul><a href="galeria.html">Galeria</a></ul>
+                <ul><a id="logo" href="index.html">O nas</a></ul>
+                <ul><a href="restaurant.html">Restauracja</a></ul>
+                <ul><a href="reservation.html">Rezerwacja</a></ul>
+            </li>              
+                  </nav>     
+                                <figure class="image all-screen">
+                                        <img id="effect_th" src="image/niechorze2.jpg">
+                                </figure>
+
+      </header>
+      <div onclick="topFunction()" id="onTop" title="Przejdź na górę strony"></div>
+      <span id="welcome">Spragniony Odpoczynku? <br> Zapraszamy do naszego obiektu!</span>
+
+    <section id="reservation-section" class="section is-mobile is-widescreen is-fullhd">
+           <div class="container">
+                      
+                      <div class="field">
+                        <label class="label">Imię i Nazwisko</label>
+                        <div class="control has-icons-left has-icons-right">
+                          <input class="input is-success" type="text" placeholder="Text input" value="Podaj imię i nazwisko">
+                          <span class="icon is-small is-left">
+                            <i class="fas fa-user"></i>
+                          </span>
+                          <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                          </span>
+                        </div>
+                        <p class="help is-success">This username is available</p>
+                      </div>
+                      
+                      <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control has-icons-left has-icons-right">
+                          <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                          <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                          </span>
+                          <span class="icon is-small is-right">
+                            <i class="fas fa-exclamation-triangle"></i>
+                          </span>
+                        </div>
+                        <p class="help is-danger">This email is invalid</p>
+                      </div>
+                      
+                      <div class="field">
+                        <label class="label">Subject</label>
+                        <div class="control">
+                          <div class="select">
+                            <select>
+                              <option>Oferta Indywidualna</option>
+                              <option>Oferta Biznesowa</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="field">
+                        <label class="label">Message</label>
+                        <div class="control">
+                          <textarea class="textarea" placeholder="Textarea"></textarea>
+                        </div>
+                      </div>
+                      
+                      <div class="field">
+                        <div class="control">
+                          <label class="checkbox">
+                            <input type="checkbox">
+                            I agree to the <a href="#">terms and conditions</a>
+                          </label>
+                        </div>
+                      </div>
+                      
+                      <div class="field">
+                        <div class="control">
+                          <label class="radio">
+                            <input type="radio" name="question">
+                            Yes
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="question">
+                            No
+                          </label>
+                        </div>
+                      </div>
+                      
+                      <div class="field is-grouped">
+                        <div class="control">
+                          <button class="button is-link">Submit</button>
+                        </div>
+                        <div class="control">
+                          <button class="button is-text">Cancel</button>
+                        </div>
+                      </div>
+
+           </div>
+           </section>
+           <section class="section ">
+            <div class="container">
+            </div>
+    </section>
+
+        <footer>
+
+        </footer>
+                
+                </body>
